@@ -11,13 +11,13 @@ class SinglyLinkedList:
         self.length = 0
         
 
-    def get(self, index: int) -> int:
-        if index >= self.length:
+    def get(self, val: int) -> int:
+        if val >= self.length:
             return -1
         curr = self.head
-        while index:
+        while val:
             curr = curr.next
-            index -= 1
+            val -= 1
         return curr.val
         
 
