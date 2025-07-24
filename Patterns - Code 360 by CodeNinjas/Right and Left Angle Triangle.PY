@@ -1,16 +1,23 @@
-def generate_pattern(rows):
-    for i in range(1, rows + 1):
-        # Left side: numbers counting up
-        left_side = ""
+def RightleftTriangle(n):
+    
+    for i in range(1, n + 1):
+        # Numbers counting up (left part)
         for j in range(1, i + 1):
-            left_side += str(j)
+            print(j, end="")
         
-        # Right side: numbers counting down
-        right_side = ""
+        # Spaces
+        # Calculate spaces for the current row 'i'
+        current_space = 2 * (n - i)
+        for _ in range(current_space): # Using '_' as a placeholder for a variable we don't need
+            print(" ", end="")
+            
+        # Numbers counting down (right part)
         for j in range(i, 0, -1):
-            right_side += str(j)
-        
-        print(f"{left_side}\t{right_side}")
+            print(j, end="")
+            
+        print() # New line after each row
 
-# Example usage for 5 rows, matching your image:
-generate_pattern(5)
+
+
+# Example from the original context (assuming 'n' is passed to a function):
+RightleftTriangle(4) # Let's assume n=4 for a concrete example, you can change this
