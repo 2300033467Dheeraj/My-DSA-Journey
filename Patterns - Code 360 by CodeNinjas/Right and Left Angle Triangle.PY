@@ -21,3 +21,9 @@ def RightleftTriangle(n):
 
 # Example from the original context (assuming 'n' is passed to a function):
 RightleftTriangle(4) # Let's assume n=4 for a concrete example, you can change this
+
+
+# 1      1
+# 12    21
+# 123  321
+# 12344321
