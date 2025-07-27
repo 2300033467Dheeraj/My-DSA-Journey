@@ -5,3 +5,8 @@ def ABCDTriangle(n):
             print(ch, end=" ")
         print()
 ABCDTriangle(5)
+# A 
+# AB
+# ABC 
+# ABCD 
+# ABCDE
