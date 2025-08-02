@@ -4,10 +4,10 @@ neg = []
 for num in nums:
     if num < 0:
         pos.append(num)
-        print(pos)
+        # print(pos)
     else :
         neg.append(num)
-        print(neg)
+        # print(neg)
 
 result = []
 for i in range(len(pos)):
