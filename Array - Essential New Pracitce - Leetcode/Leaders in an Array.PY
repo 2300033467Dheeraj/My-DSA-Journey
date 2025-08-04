@@ -16,4 +16,5 @@ def find_leaders(nums):
     leaders.reverse()  # Reverse the list to maintain the order as in nums
     return leaders
 
-nums1 = [1, 2, 5, 3, 1, 2]
+nums = [1, 2, 5, 3, 1, 2]
+find_leaders(nums)
