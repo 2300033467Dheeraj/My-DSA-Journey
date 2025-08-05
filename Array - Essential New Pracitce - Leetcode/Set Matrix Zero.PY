@@ -3,7 +3,7 @@ matrix = [[1,1,1],
           [1,1,1]
         ]
 n = len(matrix)
-m = len(matrix[0]) if n > 0 else 0
+m = len(matrix[0])
 rowlist=[]
 collist=[]
 for i in range(n):
