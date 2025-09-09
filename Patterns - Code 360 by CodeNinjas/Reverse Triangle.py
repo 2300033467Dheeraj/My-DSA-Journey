@@ -3,4 +3,6 @@ def seeding(n: int) -> None:
         for j in range(0,n-i+1):
             print("*",end=" ")
         print("\n")
-    pass
+
+seeding(5)
+n = 5
