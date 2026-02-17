@@ -6,3 +6,5 @@ for i in range (N-1):
             A[j], A[j+1] = A[j+1], A[j]
             # Swap if the element found is greater than the next element
     print(' '.join(str(x) for x in A))
+
+#Bubble sort
