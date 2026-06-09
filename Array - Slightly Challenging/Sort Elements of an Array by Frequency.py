@@ -7,4 +7,6 @@ for num in arr:
 
 sortedarr = sorted(arr,key = lambda x: (-freq.get(x),x))
 
+for num,count in sorted(freq.items(),key = lambda x :(x[-1],x[0]) ,reverse=True):
+    print(num,":",count)
 print(sortedarr)
